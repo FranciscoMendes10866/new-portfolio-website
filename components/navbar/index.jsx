@@ -5,7 +5,7 @@ const Nav = ({ NavData }) => {
                 <ul className="flex flex-col">
                     {NavData.map((data, index) => {
                         return <li
-                            className="p-1 cursor-pointer font-medium text-gray-400 hover:text-gray-700"
+                            className="p-1 cursor-pointer font-medium text-gray-400 hover:text-gray-700 transition duration-500 ease-in-out"
                             key={index}
                             >
                                 <a href={data.anchor}>{data.title} -</a>
