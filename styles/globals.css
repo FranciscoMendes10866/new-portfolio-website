@@ -1,0 +1,70 @@
+/* Custom Fonts */
+@font-face{
+  src: url(fonts/GTWalsheimPro-Regular.ttf);
+  font-family: Walsheim-Regular;
+}
+@font-face{
+  src: url(fonts/GTWalsheimPro-Bold.ttf);
+  font-family: Walsheim-Bold;
+}
+@font-face{
+  src: url(fonts/GTWalsheimPro-Medium.ttf);
+  font-family: Walsheim-Medium;
+}
+@font-face{
+  src: url(fonts/GTWalsheimPro-Light.ttf);
+  font-family: Walsheim-Light;
+}
+
+/* Font Weights */
+.bold {
+  font-family: Walsheim-Bold;
+}
+.medium {
+  font-family: Walsheim-Medium;
+}
+.light {
+  font-family: Walsheim-Light;
+}
+
+
+/* General Styles */
+* {
+  padding: 0;
+  margin: 0;
+  font-family: Walsheim-Regular;
+  box-sizing: border-box;
+}
+
+/* Stripes Background */
+body {
+  background: repeating-linear-gradient(
+  90deg,
+  rgb(238, 238, 238),
+  rgb(238, 238, 238) 1.5px,
+  white 1.5px,
+  white 220px
+);
+}
+@media only screen and (max-width: 640px) {
+  body {
+    background: repeating-linear-gradient(
+  90deg,
+  rgb(238, 238, 238),
+  rgb(238, 238, 238) 1px,
+  white 1px,
+  white 120px
+);
+  }
+}
+@media only screen and (max-width: 1024px) {
+  body {
+    background: repeating-linear-gradient(
+  90deg,
+  rgb(238, 238, 238),
+  rgb(238, 238, 238) 1px,
+  white 1px,
+  white 170px
+);
+  }
+}
