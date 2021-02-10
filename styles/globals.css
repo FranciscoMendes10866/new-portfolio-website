@@ -57,3 +57,15 @@ body {
 );
   }
 }
+
+/* Text selection */
+/* Opera, Chrome, Safari */
+::selection {
+  background-color: gray;
+  color: white;
+}
+/* Mozilla */
+::-moz-selection {
+  background-color: #4a5568;
+  color: white;
+}
