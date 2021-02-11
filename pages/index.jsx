@@ -1,6 +1,6 @@
 import Head from 'next/head'
 
-import { Nav, HomeIntro } from '../components'
+import { Nav, HomeIntro, HomePicture, HomeAbout, HomeSkills } from '../components'
 import { HomeNavData } from '../components/navbar/nav.data'
 
 const Home = () => {
@@ -8,13 +8,14 @@ const Home = () => {
     <>
       <Head>
         <title>Francisco Mendes | Home</title>
-        <link rel="icon" href="/favicon.ico" />
+        <link rel="icon" href="/favicon.png" />
       </Head>
       <main>
-      <Nav NavData={HomeNavData} />
-        <div className="container mx-auto px-10">
-          <HomeIntro />
-        </div>
+        <Nav NavData={HomeNavData} />
+        <HomeIntro />
+        <HomePicture />
+        <HomeAbout />
+        <HomeSkills />
       </main>
     </>
   )

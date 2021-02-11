@@ -3,3 +3,6 @@ export { default as Social } from './social'
 export { default as SocialMobile } from './social/mobile'
 
 export { default as HomeIntro } from './home/intro'
+export { default as HomePicture } from './home/picture'
+export { default as HomeAbout } from './home/about'
+export { default as HomeSkills } from './home/skills'
