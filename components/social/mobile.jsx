@@ -11,8 +11,8 @@ const SocialMobile = () => {
     useEffect(() => {
         const handleScroll = () => {
             const yPos = window.scrollY
-            const scrolling = yPos < lastYPos
-            setShow(scrolling)
+            const isScrolling = yPos < lastYPos
+            setShow(isScrolling)
             setLastYPos(yPos)
         }
         window.addEventListener('scroll', () => handleScroll(), { passive: true })
