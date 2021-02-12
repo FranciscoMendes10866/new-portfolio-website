@@ -5,7 +5,7 @@ import { useEffect, useState } from 'react'
 const BackToTop = () => {
     const [show, setShow] = useState(false)
     useEffect(() => {
-        window.onscroll = () => { anchorFunction() }
+        window.onscroll = () => anchorFunction()
         const anchorFunction = () => {
             if (document.body.scrollTop > 20 || document.documentElement.scrollTop > 20) {
                 setShow(true)
