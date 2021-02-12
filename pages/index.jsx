@@ -1,6 +1,15 @@
 import Head from 'next/head'
 
-import { Nav, HomeIntro, HomePicture, HomeAbout, HomeSkills, Footer, HomeContact } from '../components'
+import {
+  Nav,
+  HomeIntro,
+  HomePicture,
+  HomeAbout,
+  HomeSkills,
+  Footer,
+  HomeContact,
+  BackToTop
+} from '../components'
 import { HomeNavData } from '../components/navbar/nav.data'
 
 const Home = () => {
@@ -11,6 +20,7 @@ const Home = () => {
         <link rel="icon" href="/favicon.png" />
       </Head>
       <main>
+        <BackToTop />
         <Nav NavData={HomeNavData} />
         <HomeIntro />
         <HomePicture />
