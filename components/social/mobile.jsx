@@ -29,7 +29,7 @@ const SocialMobile = () => {
             >
                 <ul className="flex">
                     <motion.li
-                        className="px-2 cursor-pointer font-medium text-gray-100"
+                        className="px-2 font-medium text-gray-100"
                         whileHover={{ scale: 1.2 }}
                     >
                         <a href>
@@ -37,7 +37,7 @@ const SocialMobile = () => {
                         </a>
                     </motion.li>
                     <motion.li
-                        className="px-2 cursor-pointer font-medium text-gray-100"
+                        className="px-2 font-medium text-gray-100"
                         whileHover={{ scale: 1.2 }}
                     >
                         <a href>
@@ -45,7 +45,7 @@ const SocialMobile = () => {
                         </a>
                     </motion.li>
                     <motion.li
-                        className="px-2 cursor-pointer font-medium text-gray-100"
+                        className="px-2 font-medium text-gray-100"
                         whileHover={{ scale: 1.2 }}
                     >
                         <a href>
@@ -53,7 +53,7 @@ const SocialMobile = () => {
                         </a>
                     </motion.li>
                     <motion.li
-                        className="px-2 cursor-pointer font-medium text-gray-100"
+                        className="px-2 font-medium text-gray-100"
                         whileHover={{ scale: 1.2 }}
                     >
                         <a href>
@@ -61,7 +61,7 @@ const SocialMobile = () => {
                         </a>
                     </motion.li>
                     <motion.li
-                        className="px-2 cursor-pointer font-medium text-gray-100"
+                        className="px-2 font-medium text-gray-100"
                         whileHover={{ scale: 1.2 }}
                     >
                         <a href>

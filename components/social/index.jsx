@@ -10,7 +10,7 @@ const Social = () => {
             <div className="left-0 top-0 z-50 fixed text-center bg-gray-900 p-3 invisible md:visible" style={{ marginTop: '35vh' }}>
                 <ul className="flex flex-col">
                     <motion.li
-                        className="py-2 cursor-pointer font-medium text-gray-100"
+                        className="py-2 font-medium text-gray-100"
                         whileHover={{ scale: 1.2 }}
                     >
                         <a href>
@@ -18,7 +18,7 @@ const Social = () => {
                         </a>
                     </motion.li>
                     <motion.li
-                        className="py-2 cursor-pointer font-medium text-gray-100"
+                        className="py-2 font-medium text-gray-100"
                         whileHover={{ scale: 1.2 }}
                     >
                         <a href>
@@ -26,7 +26,7 @@ const Social = () => {
                         </a>
                     </motion.li>
                     <motion.li
-                        className="py-2 cursor-pointer font-medium text-gray-100"
+                        className="py-2 font-medium text-gray-100"
                         whileHover={{ scale: 1.2 }}
                     >
                         <a href>
@@ -34,7 +34,7 @@ const Social = () => {
                         </a>
                     </motion.li>
                     <motion.li
-                        className="py-2 cursor-pointer font-medium text-gray-100"
+                        className="py-2 font-medium text-gray-100"
                         whileHover={{ scale: 1.2 }}
                     >
                         <a href>
@@ -42,7 +42,7 @@ const Social = () => {
                         </a>
                     </motion.li>
                     <motion.li
-                        className="py-2 cursor-pointer font-medium text-gray-100"
+                        className="py-2 font-medium text-gray-100"
                         whileHover={{ scale: 1.2 }}
                     >
                         <a href>

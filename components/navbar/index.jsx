@@ -7,7 +7,7 @@ const Nav = ({ NavData }) => {
                 <ul className="flex flex-col">
                     {NavData.map((data, index) => {
                         return <motion.li
-                            className="p-1 cursor-pointer font-medium text-gray-400 hover:text-gray-700"
+                            className="p-1 font-medium text-gray-400 hover:text-gray-700"
                             key={index}
                             whileHover={{ originX: 0, x: '-20px' }}
                             transition={{ delay: 0.05 }}
