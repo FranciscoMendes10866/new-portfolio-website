@@ -3,11 +3,30 @@ import { RiLinkedinFill } from 'react-icons/ri'
 import { ImXing2 } from 'react-icons/im'
 import { FaDev } from 'react-icons/fa'
 import { motion } from 'framer-motion'
+import { useState, useEffect } from 'react'
 
 const SocialMobile = () => {
+    const [show, setShow] = useState(false)
+    const [lastYPos, setLastYPos] = useState('')
+    useEffect(() => {
+        const handleScroll = () => {
+            const yPos = window.scrollY
+            const scrolling = yPos < lastYPos
+            setShow(scrolling)
+            setLastYPos(yPos)
+        }
+        window.addEventListener('scroll', () => handleScroll(), false)
+        return () => window.removeEventListener('scroll', () => handleScroll(), false)
+    }, [lastYPos])
     return (
         <>
-            <div className="left-0 bottom-0 z-50 fixed text-center bg-gray-900 p-3 visible md:invisible" style={{ marginTop: '35vh' }}>
+            <motion.div
+                className="left-0 bottom-0 ml-4 mb-4 z-50 fixed text-center bg-gray-900 p-3 visible md:invisible"
+                style={{ marginTop: '35vh' }}
+                animate={{ opacity: show ? 1 : 0 }}
+                initial={{ opacity: 1}}
+                transition={{ opacity: { duration: 0.07 } }}
+            >
                 <ul className="flex">
                     <motion.li
                         className="px-2 cursor-pointer font-medium text-gray-100"
@@ -50,7 +69,7 @@ const SocialMobile = () => {
                         </a>
                     </motion.li>
                 </ul>
-            </div>
+            </motion.div>
         </>
     )
 }
