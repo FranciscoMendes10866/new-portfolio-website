@@ -13,12 +13,12 @@ const BackToTop = () => {
                 setShow(false)
             }
         }
-    }, [])
+    }, [show])
     return (
         <>
             <span id="top"></span>
             <motion.div
-                class="back-top right-0 bottom-0 fixed mr-4 md:mr-12 mb-4 md:mb-12 bg-gray-900 text-white p-2"
+                class="right-0 bottom-0 fixed mr-4 md:mr-12 mb-4 md:mb-12 bg-gray-900 text-white p-2"
                 animate={{ scale: show ? 1 : 0 }}
                 initial={{ scale: 1 }}
                 whileHover={{ originX: 0, y: '-20px' }}
