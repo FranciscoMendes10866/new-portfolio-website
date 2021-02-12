@@ -7,7 +7,7 @@ class MyDocument extends Document {
   }
   render() {
     return (
-      <Html lang="en" charSet="utf-8">
+      <Html lang="en">
         <Head>
             <link rel="stylesheet" href="https://unpkg.com/kursor/dist/kursor.css" />
         </Head>
@@ -15,7 +15,7 @@ class MyDocument extends Document {
           <Main />
           <NextScript />
         </body>
-        <script src="https://unpkg.com/kursor"></script>
+        <script src="https://unpkg.com/kursor" />
         <script dangerouslySetInnerHTML={{__html:`new kursor({ type: 2, removeDefaultCursor: true, color:"#939393" })`}} />
       </Html>
     )
