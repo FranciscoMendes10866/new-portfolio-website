@@ -11,7 +11,7 @@ const Projects = () => {
                     <motion.div
                         key={index}
                         className="bg-gray-900 p-10"
-                        whileHover={{ y: -10 }}
+                        whileHover={{ y: -5 }}
                         transition={{ delay: 0.05 }}
                         >
                         <span className="text-gray-500 text-xl lg:text-lg border-b-2 pb-2 border-gray-500">
