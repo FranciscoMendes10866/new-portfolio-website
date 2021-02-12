@@ -8,7 +8,8 @@ import {
   HomeSkills,
   Footer,
   HomeContact,
-  BackToTop
+  BackToTop,
+  HomeWorks
 } from '../components'
 import { HomeNavData } from '../components/navbar/nav.data'
 
@@ -26,6 +27,7 @@ const Home = () => {
         <HomePicture />
         <HomeAbout />
         <HomeSkills />
+        <HomeWorks />
         <HomeContact />
         <Footer />
       </main>
