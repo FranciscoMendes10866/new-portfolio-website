@@ -41,8 +41,8 @@
 body {
   background: repeating-linear-gradient(
   90deg,
-  rgb(238, 238, 238),
-  rgb(238, 238, 238) 1.5px,
+  rgb(241, 241, 241),
+  rgb(241, 241, 241) 1.5px,
   white 1.5px,
   white 220px
 );

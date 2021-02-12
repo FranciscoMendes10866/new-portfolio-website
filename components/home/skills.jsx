@@ -2,7 +2,7 @@ import TechStack from './tech'
 
 const Skills = () => {
     return (
-        <div className="container mx-auto px-10 md:px-14 lg:px-28 py-20" id="myskills">
+        <div className="container mx-auto px-10 md:px-14 lg:px-32 py-20" id="myskills">
             <h1 className="bold text-4xl">My skills.</h1>
             <div className="grid grid-cols-1 md:grid-cols-12 gap-8 md:gap-12 mt-12">
                 <div className="col-span-9 lg:col-span-9 xl:col-span-6">
