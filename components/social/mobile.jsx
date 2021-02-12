@@ -15,8 +15,8 @@ const SocialMobile = () => {
             setShow(scrolling)
             setLastYPos(yPos)
         }
-        window.addEventListener('scroll', () => handleScroll(), false)
-        return () => window.removeEventListener('scroll', () => handleScroll(), false)
+        window.addEventListener('scroll', () => handleScroll(), { passive: true })
+        return () => window.removeEventListener('scroll', () => handleScroll())
     }, [lastYPos])
     return (
         <>
