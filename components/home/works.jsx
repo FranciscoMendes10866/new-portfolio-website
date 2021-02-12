@@ -1,3 +1,5 @@
+import Projects from './projects'
+
 const Works = () => {
     return (
         <div className="container mx-auto px-10 md:px-14 lg:px-32 py-20" id="myworks">
@@ -10,6 +12,7 @@ const Works = () => {
                     </p>
                 </div>
             </div>
+            <Projects />
         </div>
     )
 }
