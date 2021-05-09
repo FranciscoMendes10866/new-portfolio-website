@@ -17,7 +17,7 @@ const Home = () => {
   return (
     <>
       <Head>
-        <title>Francisco Mendes | Home</title>
+        <title>Francisco Mendes</title>
         <link rel="icon" href="/favicon.png" />
       </Head>
       <main>
