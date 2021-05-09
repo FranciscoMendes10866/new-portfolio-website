@@ -22,7 +22,7 @@ const Contact = () => {
                     whileHover={{ scale: 1.1 }}
                     transition={{ delay: 0.05 }}
                 >
-                    hello@fmendes.email
+                    fmendes_dev@protonmail.ch
             </motion.button>
             </motion.div>
         </div>

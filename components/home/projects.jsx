@@ -23,9 +23,14 @@ const Projects = () => {
                         <p className="mt-10 text-lg lg:text-base text-gray-400 tracking-wider leading-loose light">
                             {data.desc}
                         </p>
-                        <button className="flex mt-16 border-2 border-white px-6 py-4 text-gray-100 hover:text-gray-900 bg-transparent hover:bg-white tracking-widest transition duration-150 ease-in-out">
-                            View Project <BsArrowRightShort className="text-2xl" />
-                        </button>
+                        <p className="mt-10 text-lg lg:text-base text-gray-400 tracking-wider leading-loose light">
+                            {data.tags}
+                        </p>
+                        <a href={data.link} target="_blank">
+                            <button className="flex mt-10 border-2 border-white px-6 py-4 text-gray-100 hover:text-gray-900 bg-transparent hover:bg-white tracking-widest transition duration-150 ease-in-out">
+                                View Project <BsArrowRightShort className="text-2xl" />
+                            </button>
+                        </a>
                     </motion.div>
                 )
             })}

@@ -1,6 +1,5 @@
 import { AiFillInstagram, AiFillGithub } from 'react-icons/ai'
 import { RiLinkedinFill } from 'react-icons/ri'
-import { ImXing2 } from 'react-icons/im'
 import { FaDev } from 'react-icons/fa'
 import { motion } from 'framer-motion'
 import { useState, useEffect } from 'react'
@@ -50,14 +49,6 @@ const SocialMobile = () => {
                     >
                         <a href>
                             <RiLinkedinFill className="text-xl" />
-                        </a>
-                    </motion.li>
-                    <motion.li
-                        className="px-2 font-medium text-gray-100"
-                        whileHover={{ scale: 1.2 }}
-                    >
-                        <a href>
-                            <ImXing2 className="text-xl" />
                         </a>
                     </motion.li>
                     <motion.li

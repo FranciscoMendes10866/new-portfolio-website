@@ -1,22 +1,30 @@
 export const ProjectsData = [
     {
         type: 'Full Stack',
-        name: 'Foodover',
-        desc: 'A social network for culinary enthusiasts.'
+        name: 'Thirsy',
+        desc: 'Google Meet Alternative.',
+        tags: "#react #socket.io #webrtc #material-ui",
+        link: "https://github.com/FranciscoMendes10866/thirsy"
     },
     {
         type: 'Full Stack',
-        name: 'ShortNerw',
-        desc: 'A URL shortener built to help you grow your brand.'
+        name: 'Recons',
+        desc: 'Alternative to OwnTracks.',
+        tags: "#react #leaflet #fastify #mongodb",
+        link: "https://github.com/FranciscoMendes10866/recons"
     },
     {
         type: 'Full Stack',
-        name: 'OnlyDesk',
-        desc: 'The Only Link You’ll Ever Need.'
+        name: 'Stiind',
+        desc: 'Simple nursing home application.',
+        tags: "#react #redux #gql #express #chackra-ui",
+        link: "https://github.com/FranciscoMendes10866/stiind"
     },
     {
         type: 'Full Stack',
-        name: 'Venu',
-        desc: 'Simple Discussion Forum.'
+        name: 'Squate',
+        desc: 'Personal Trainer Web App.',
+        tags: "#react #react-query #fastify #material-ui",
+        link: "https://github.com/FranciscoMendes10866/squate"
     },
 ]
