@@ -31,7 +31,7 @@ const SocialMobile = () => {
                         className="px-2 font-medium text-gray-100"
                         whileHover={{ scale: 1.2 }}
                     >
-                        <a href>
+                        <a href="https://www.instagram.com/__.fmendes.__/">
                             <AiFillInstagram className="text-xl" />
                         </a>
                     </motion.li>
@@ -39,7 +39,7 @@ const SocialMobile = () => {
                         className="px-2 font-medium text-gray-100"
                         whileHover={{ scale: 1.2 }}
                     >
-                        <a href>
+                        <a href="https://github.com/FranciscoMendes10866">
                             <AiFillGithub className="text-xl" />
                         </a>
                     </motion.li>
@@ -55,7 +55,7 @@ const SocialMobile = () => {
                         className="px-2 font-medium text-gray-100"
                         whileHover={{ scale: 1.2 }}
                     >
-                        <a href>
+                        <a href="https://dev.to/franciscomendes10866">
                             <FaDev className="text-xl" />
                         </a>
                     </motion.li>
