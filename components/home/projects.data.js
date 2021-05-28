@@ -22,9 +22,9 @@ export const ProjectsData = [
     },
     {
         type: 'Full Stack',
-        name: 'Squate',
-        desc: 'Personal Trainer Web App.',
-        tags: "#react #react-query #fastify #material-ui",
-        link: "https://github.com/FranciscoMendes10866/squate"
+        name: 'Agraph',
+        desc: 'Application to share recipes.',
+        tags: "#react #jotai #react-query #gql #reactstrap",
+        link: "https://github.com/FranciscoMendes10866/agraph"
     },
 ]
